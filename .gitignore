@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# .NET / C#
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Локальная база данных и результаты парсинга
+*.db
+*.sqlite
+*.sqlite3
+vacancies_all.csv
+parsing_stats_all.csv
+
+# Логи и временные файлы
+*.log
+logs/
+tmp/
+temp/
+
+# Локальная конфигурация и секреты
+.env
+.env.*
+!.env.example
+config.json
+
+# IDE
+.idea/
+.vscode/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
